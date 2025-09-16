@@ -1,10 +1,16 @@
+package.json:
 {
-  "name": "http-nodejs",
+  "name": "esp32-soil-sensor-server",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "Aiden Bai",
-  "license": "MIT",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }

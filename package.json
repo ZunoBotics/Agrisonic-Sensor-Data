@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "type": "module",
   "main": "server.mjs",
-  "author": "Jonathan Ssemakula",
   "license": "MIT",
   "scripts": {
     "start": "node server.mjs"

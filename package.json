@@ -1,4 +1,3 @@
-package.json:
 {
   "name": "esp32-soil-sensor-server",
   "version": "1.0.0",
